@@ -1,18 +1,11 @@
-## Getting Started
+# Challenge Conversor de Monedas - Alura-Latam  Programa ONE-G6
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+El pequeño proyecto consiste en realizar conversion de monedas de diferentes paises consumiendo una API en este caso se uso la API de Exchange Rate API
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Funciones
+Conversion de monedas: Te muestra al dia el peso de la moneda selecionada y realiza la conversión de la mayoria de monedas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Historial de Conversiones: Se pueden ver las conversiones que se hayan realizado, incluyendo la fecha y hora en la se haya realizado.
+## Screenshots
+![Captura de pantalla 2024-06-12 141758](https://github.com/alexismolinafs/ChallengeAlura-ConversorDeMonedas/assets/153253288/f2133ba6-cf3c-4990-b8a6-5c9851b5f7b9)
