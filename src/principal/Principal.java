@@ -52,7 +52,6 @@ public class Principal {
                     String monedaDestino = consola.nextLine().toUpperCase();
 
                     String resultado = Conversion.Convertir(monedaOrigen, monedaDestino, consulta, consola);
-                    historial.add("Conversión: " + resultado);
                     LocalDateTime time = LocalDateTime.now();
                     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
                     String reg = String.format("Conversion: %s - Fecha y Hora: %s", resultado, time.format(formatter));
